@@ -44,6 +44,6 @@ A set is a container that holds unique values. Imagine it being a bag that allow
 
 ```swift
 var set: Set<Int> = [1,2,3]
-var set = Set([1,2,3])
+var seet = Set([1,2,3])
 ```
 
