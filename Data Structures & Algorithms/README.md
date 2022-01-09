@@ -1,4 +1,4 @@
-> Data structures & Algorithms in Swift By raywenderlich, Matthijs Hollemans / 인공지능 시대를 위한 컴퓨터 과학 개론 By 정기철
+> Data structures & Algorithms in Swift By raywenderlich, Matthijs Hollemans / 인공지능 시대를 위한 컴퓨터 과학 개론 By 정기철 / Swift algorithm club
 
 # 자료 구조 & 알고리즘
 
