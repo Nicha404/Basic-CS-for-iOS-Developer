@@ -43,7 +43,7 @@ var scores = ["Eric": 9, "Andy": 10]
 A set is a container that holds unique values. Imagine it being a bag that allows you to insert items into it, but rejects items that have already been inserted. And a set is also an unordered data set.
 
 ```swift
-var set: Set<Int> = [1,2,3] // 같은 자료형만 닮을 수 있다.
+var set: Set<Int> = [1,2,3] // 같은 자료형만 담을 수 있다.
 var seet = Set([1,2,3])
 ```
 
