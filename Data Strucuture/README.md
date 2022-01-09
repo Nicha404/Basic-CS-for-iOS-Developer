@@ -1,8 +1,8 @@
+> Data structures & Algorithms in Swift By raywenderlich, Matthijs Hollemans / 인공지능 시대를 위한 컴퓨터 과학 개론 By 정기철
+
 # 자료 구조
 
 ## 자료 구조란?
-
-> Data structures & Algorithms in Swift By raywenderlich, Matthijs Hollemans / 인공지능 시대를 위한 컴퓨터 과학 개론 By 정기철
 
 자료 구조는 영어로 Data Structure, 즉 **데이터들의 구조적 체계**를 말한다. 현대에 들어서 폭발적으로 증가하는 데이터들을 좀 더 효율적으로 그리고 구조적으로 다루기 위해 이러한 방법론이 생겨났다.
 
