@@ -39,11 +39,11 @@ ex) O(n): 알고리즘의 수행 횟수가 n만큼 커진다.
 
 ##### Constant time
 
-A constant time algorithm is one that has the same running time regardless of the size of the input. As input data increases, the amount of time the algorithm takes does not change. The Big O notation for constant time is O(1).
+  A constant time algorithm is one that has the same running time regardless of the size of the input. As input data increases, the amount of time the algorithm takes does not change. The Big O notation for constant time is O(1).
 
 ##### Linear time
 
-Linear time complexity is usually the easiest to understand. As the amount of data increases, the running time increases by the same amount. The Big O notation for linear time is O(n).
+Linear time complexity is usually the easiest to understand. As the amount of data increases, the running time increases by the same amount. The Big O notation    for linear time is O(n).
 
 ##### Quadratic time
 
@@ -51,7 +51,13 @@ This time complexity refers to an algorithm that takes time proportional to the 
 
 ##### Logarithmic time
 
-데이터(정렬돼있는 데이터)의 양을 매번 절반으로 분할해서 처리하는 알고리즘은 통상적으로 이 그룹에 속한다. As input data increases, the time it takes to execute the algorithm increases at a slow rate.
+데이터(정렬돼있는 데이터)의 양을 매번 절반으로 분할해서 처리하는 알고리즘은 통상적으로 이 그룹에 속한다. As input data increases, the time it takes to execute the algorithm increases at a slow rate. The Big O notation for this is O(log n).
+
+##### Quasilinear time
+
+Another common time complexity you’ll encounter is quasilinear time. Quasilinear time algorithms perform worse than linear time but dramatically better than quadratic time. They are among the most common algorithms you’ll deal with. An example of a quasilinear time algorithm is Swift’s sort method. The Big-O notation for quasilinear time complexity is O(n log n) which is a multiplication of linear and logarithmic time. So quasilinear fits between logarithmic and linear time; it is worse than linear time but still better than many of the other complexities that you’ll see next. The quasilinear time complexity shares a similar curve with quadratic time but doesn’t go up quite as fast so is more resilient to large data sets.
+
+
 
 ***
 
