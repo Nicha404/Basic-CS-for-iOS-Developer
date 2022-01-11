@@ -57,7 +57,7 @@ This time complexity refers to an algorithm that takes time proportional to the 
 
 Another common time complexity you’ll encounter is quasilinear time. Quasilinear time algorithms perform worse than linear time but dramatically better than quadratic time. They are among the most common algorithms you’ll deal with. An example of a quasilinear time algorithm is Swift’s sort method. The Big-O notation for quasilinear time complexity is O(n log n) which is a multiplication of linear and logarithmic time. So quasilinear fits between logarithmic and linear time; it is worse than linear time but still better than many of the other complexities that you’ll see next. The quasilinear time complexity shares a similar curve with quadratic time but doesn’t go up quite as fast so is more resilient to large data sets.
 
-
+![Time-Complexity](https://user-images.githubusercontent.com/96713521/148945963-ff8a10f8-e5ae-4d5f-87e7-269471f14713.png)
 
 ***
 
