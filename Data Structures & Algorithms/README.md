@@ -32,8 +32,26 @@
 
 알고리즘의 시간 복잡도를 표현하는 방법 중에 빅 오 표기법이 있다. 이것은 입력된 값의 크기에 따라 알고리즘 처리 횟수가 얼마나 증가하는지 나타낼 때 사용된다. 표기는 O(n)으로 하고 n은 n^2, log n 등등 다양하게 표현될 수 있다. 예를 들어 알고리즘의 수행 속도가 함수 4x^3 + 2x로 표현된다면, 이 알고리즘의 빅 오 표기법은 O(x^3)이다. 최고차항의 x 값만 남기고 나머지 상수와 계수는 없앤다.
 
-O(n): 알고리즘의 수행 횟수가 n만큼 커진다.  
-O(n^2): 알고리즘의 수행 횟수가 n^2만큼 커진다.
+ex) O(n): 알고리즘의 수행 횟수가 n만큼 커진다.  
+    O(n^2): 알고리즘의 수행 횟수가 n^2만큼 커진다.
+    
+#### Big O Notation의 여러가지 표현 방법들
+
+##### Constant time
+
+A constant time algorithm is one that has the same running time regardless of the size of the input. As input data increases, the amount of time the algorithm takes does not change. The Big O notation for constant time is O(1).
+
+##### Linear time
+
+Linear time complexity is usually the easiest to understand. As the amount of data increases, the running time increases by the same amount. The Big O notation for linear time is O(n).
+
+##### Quadratic time
+
+This time complexity refers to an algorithm that takes time proportional to the square of the input size. As the size of the input data increases, the amount of time it takes for the algorithm to run increases drastically. The Big O notation for quadratic time is O(n^2).
+
+##### Logarithmic time
+
+데이터(정렬돼있는 데이터)의 양을 매번 절반으로 분할해서 처리하는 알고리즘은 통상적으로 이 그룹에 속한다. As input data increases, the time it takes to execute the algorithm increases at a slow rate.
 
 ***
 
