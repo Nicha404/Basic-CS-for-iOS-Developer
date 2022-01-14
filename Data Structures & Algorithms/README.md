@@ -61,6 +61,8 @@ Another common time complexity you’ll encounter is quasilinear time. Quasiline
 
 ***
 
+# 여러가지 자료 구조들
+
 ## 배열
 
 배열이란 자료형이 같은 데이터를 순서대로 나열한 뒤 메모리에 연속으로 저장해 만든 자료이다. 배열을 통해 여러 변수들을 따로따로 선언할 필요 없이 한번에 선언할 수 있는 장점이 있다. 변수 한 개의 이름으로 메모리 방을 여러 개 사용하는 구조이다.
