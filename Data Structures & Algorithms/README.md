@@ -24,36 +24,36 @@
 
 알고리즘은 어떤 구조가 가장 효율적인지 분석해 설계해야 한다. 우리는 **복잡도**를 통해 해당 알고리즘이 특정 기준에 따라 얼마나 빠르고 느리게 실행되는지 알 수 있다.
 
-#### 시간 복잡도
+### 시간 복잡도
 
 시간 복잡도란 알고리즘이 실행되고 종료될 때까지 어느 정도의 시간이 필요한지를 측정하는 방법이다. CPU의 실행 시간을 직접 측정하기는 어려우므로, 알고리즘 실행문이 실행된 횟수(=명령어 수행 횟수)를 파악해 측정한다. 시간 복잡도 간의 차이는 알고리즘의 형태에 따라 처리할 데이터의 양이 많을수록 더 확실하게 구분된다.
 
-#### Big O Notation 
+### Big O Notation 
 
 알고리즘의 시간 복잡도를 표현하는 방법 중에 빅 오 표기법이 있다. 이것은 입력된 값의 크기에 따라 알고리즘 처리 횟수가 얼마나 증가하는지 나타낼 때 사용된다. 표기는 O(n)으로 하고 n은 n^2, log n 등등 다양하게 표현될 수 있다. 예를 들어 알고리즘의 수행 속도가 함수 4x^3 + 2x로 표현된다면, 이 알고리즘의 빅 오 표기법은 O(x^3)이다. 최고차항의 x 값만 남기고 나머지 상수와 계수는 없앤다.
 
 ex) O(n): 알고리즘의 수행 횟수가 n만큼 커진다.  
     O(n^2): 알고리즘의 수행 횟수가 n^2만큼 커진다.
     
-#### Big O Notation의 여러가지 표현 방법들
+### Big O Notation의 여러가지 표현 방법들
 
-##### Constant time
+#### Constant time
 
   A constant time algorithm is one that has the same running time regardless of the size of the input. As input data increases, the amount of time the algorithm takes does not change. The Big O notation for constant time is O(1).
 
-##### Linear time
+#### Linear time
 
 Linear time complexity is usually the easiest to understand. As the amount of data increases, the running time increases by the same amount. The Big O notation    for linear time is O(n).
 
-##### Quadratic time
+#### Quadratic time
 
 This time complexity refers to an algorithm that takes time proportional to the square of the input size. As the size of the input data increases, the amount of time it takes for the algorithm to run increases drastically. The Big O notation for quadratic time is O(n^2). (주로 for문 안의 for문)
 
-##### Logarithmic time
+#### Logarithmic time
 
 데이터(정렬돼있는 데이터)의 양을 매번 절반으로 분할해서 처리하는 알고리즘은 통상적으로 이 그룹에 속한다. As input data increases, the time it takes to execute the algorithm increases at a slow rate. The Big O notation for this is O(log n).
 
-##### Quasilinear time
+#### Quasilinear time
 
 Another common time complexity you’ll encounter is quasilinear time. Quasilinear time algorithms perform worse than linear time but dramatically better than quadratic time. They are among the most common algorithms you’ll deal with. An example of a quasilinear time algorithm is Swift’s sort method. The Big-O notation for quasilinear time complexity is O(n log n) which is a multiplication of linear and logarithmic time. So quasilinear fits between logarithmic and linear time; it is worse than linear time but still better than many of the other complexities that you’ll see next. The quasilinear time complexity shares a similar curve with quadratic time but doesn’t go up quite as fast so is more resilient to large data sets.
 
