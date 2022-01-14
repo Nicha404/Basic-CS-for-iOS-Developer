@@ -65,8 +65,6 @@ Another common time complexity you’ll encounter is quasilinear time. Quasiline
 
 배열이란 자료형이 같은 데이터를 순서대로 나열한 뒤 메모리에 연속으로 저장해 만든 자료이다. 배열을 통해 여러 변수들을 따로따로 선언할 필요 없이 한번에 선언할 수 있는 장점이 있다. 변수 한 개의 이름으로 메모리 방을 여러 개 사용하는 구조이다.
 
-And An Array is also a Random Access Collection. Random-access is a trait that data structures can claim if they can handle element retrieval in a constant amount of time. For example, getting "A Specific Data" from the "Array" takes constant time. Again, this performance should not be taken for granted. Other data structures such as linked lists and trees do not have constant time access. 이 방식은 접근 방식에서만 유효하다. 검색, 추가, 삭제에서는 다른 방식 적용된다. 자세한건 알고리즘에서 시간, 공간 복잡도 편에서 알아보자!( 이 글 삭제하고 알고리즘편에 옮기기), 배열 딕셔너리 셋 swfit appretice 참고해서 알고리즘편에 자세하게 서술하기.
-
 배열에서의 데이터 추가나 삭제를 알아보자. 정해진 배열의 중간에 다른 데이터를 추가하고 싶다면 추가하려는 자리 다음의 데이터를 모두 한 칸씩 뒤로 옮겨야 한다. 반대도 삭제할 때도 데이터를 삭제한 뒤 삭제한 데이터 뒤에 있는 데이터들을 앞으로 한 칸씩 옮겨야 한다. 사람들이 줄을 서는데 새치기 하는 사람을 생각해보자! 그래서 추가와 삭제를 자주하면 시간이 오래걸린다. 
 
 ```swift
