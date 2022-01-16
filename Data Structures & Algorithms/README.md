@@ -71,17 +71,23 @@ An array is an ordered collection of values of the same type. The elements in th
 let array = [1, 2, 3, 4]
 ```
 
+```swift
+let array: [String] = []
+```
+
+### Running time for array operations
+
+Arrays are stored as a contiguous block in memory. That means if you have ten elements in an array, the ten values are all stored one next to the other. With that in mind, here’s the performance cost of various array operations
+
+* access element
+
+* insert
 
 
 
-
-배열이란 자료형이 같은 데이터를 순서대로 나열한 뒤 메모리에 연속으로 저장해 만든 자료이다. 배열을 통해 여러 변수들을 따로따로 선언할 필요 없이 한번에 선언할 수 있는 장점이 있다. 변수 한 개의 이름으로 메모리 방을 여러 개 사용하는 구조이다.
 
 배열에서의 데이터 추가나 삭제를 알아보자. 정해진 배열의 중간에 다른 데이터를 추가하고 싶다면 추가하려는 자리 다음의 데이터를 모두 한 칸씩 뒤로 옮겨야 한다. 반대도 삭제할 때도 데이터를 삭제한 뒤 삭제한 데이터 뒤에 있는 데이터들을 앞으로 한 칸씩 옮겨야 한다. 사람들이 줄을 서는데 새치기 하는 사람을 생각해보자! 그래서 추가와 삭제를 자주하면 시간이 오래걸린다. 
 
-```swift
-let fruits = ["Apple", "Banana", "Peach"]
-```
 
 There are also two other Swift standard library. The dictionary and set.
 
