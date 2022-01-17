@@ -93,13 +93,9 @@ Arrays are stored as a contiguous block in memory. That means if you have ten el
 
 * Searching for an element: If the element you’re searching for is the first element in the array, then the search will end after a single operation. If the element doesn’t exist, you need to perform N operations until you realize that the element is not found. On average, searching for an element will take n/2(평균적으로 중간값이라는 뜻) operations; therefore, searching has a complexity of O(n). (그러나 검색은 지금처럼 선형검색도 있지만 이진검색도 있다. 이진검색은 반드시 배열이 정렬되어있을때만 사용가능하다. 이때 이진검색의 시간복잡도는 O(log n)이다.)
 
+There are also two other Swift standard libraries. The dictionary and set.
 
-
-
-
-
-
-There are also two other Swift standard library. The dictionary and set.
+***
 
 ## Dictionary 
 
