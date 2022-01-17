@@ -75,18 +75,26 @@ let array = [1, 2, 3, 4]
 let array: [String] = []
 ```
 
-### Running time for array operations
+### Running time for array operations by Big O notation
 
 Arrays are stored as a contiguous block in memory. That means if you have ten elements in an array, the ten values are all stored one next to the other. With that in mind, here’s the performance cost of various array operations
 
-* access element
+* Accessing elements: The cost of fetching an element is cheap, meaning it happens in a fixed or constant time. Sometimes this is written O(1). And it's random access.
 
-* insert
+* Inserting elements: The complexity of adding an element depends on the position in which you add the new element.
+
+  * If you add to the beginning of the array, Swift requires time proportional to the size of the array because it has to shift all of the elements over by one to make room. This is called linear time and sometimes written O(n).
+
+  * Likewise, if you add to the middle of the array, all values from that index on need to be shifted over. Doing so will require n/2 operations; therefore, the running time is still linear with the size of the array or O(n).
+
+  * If you add to the end of the array using append and there’s room, it will take O(1). If there isn’t room, Swift will need to make space somewhere else and copy the entire array over before adding the new element, which will take O(n). The average case is O(1) because arrays are not full most of the time.
+
+* Deleting elements: Deleting an element leaves a gap where the removed element was. All elements in the array must be sequential, so this gap needs to be closed by shifting elements forward. The complexity is similar to inserting elements: If you’re removing an element from the end, it’s an O(1) operation. Otherwise, the complexity is O(n).
+
+* Searching for an element: If the element you’re searching for is the first element in the array, then the search will end after a single operation. If the element doesn’t exist, you need to perform N operations until you realize that the element is not found. On average, searching for an element will take n/2 operations; therefore, searching has a complexity of O(n). (검색은 크게 선형검색과 이진검색으로 나뉘어지는데 이진검색은 반드시 배열이 정렬되어있을때만 사용가능하다. 이때 이진검색의 시간복잡도는 O(log n)이다.)
 
 
 
-
-배열에서의 데이터 추가나 삭제를 알아보자. 정해진 배열의 중간에 다른 데이터를 추가하고 싶다면 추가하려는 자리 다음의 데이터를 모두 한 칸씩 뒤로 옮겨야 한다. 반대도 삭제할 때도 데이터를 삭제한 뒤 삭제한 데이터 뒤에 있는 데이터들을 앞으로 한 칸씩 옮겨야 한다. 사람들이 줄을 서는데 새치기 하는 사람을 생각해보자! 그래서 추가와 삭제를 자주하면 시간이 오래걸린다. 
 
 
 There are also two other Swift standard library. The dictionary and set.
