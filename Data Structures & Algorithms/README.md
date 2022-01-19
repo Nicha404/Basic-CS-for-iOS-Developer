@@ -117,6 +117,8 @@ var pairs2 = [:]
 
 * Searching for an element: As mentioned above, accessing an element has constant running time, so the complexity for searching is also O(1).
 
+***
+
 ## Set
 
 A set is a container that holds unique values. Imagine it being a bag that allows you to insert items into it, but rejects items that have already been inserted. And a set is also an unordered data set.
