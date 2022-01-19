@@ -75,7 +75,7 @@ let array = [1, 2, 3, 4]
 let array: [String] = []
 ```
 
-### Running time for array operations by Big O notation
+### Running time for array operations 
 
 Arrays are stored as a contiguous block in memory. That means if you have ten elements in an array, the ten values are all stored one next to the other. With that in mind, here’s the performance cost of various array operations
 
@@ -106,6 +106,10 @@ var scores = ["Eric": 9, "Andy": 10]
 var pairs: [String: Int] = [:]
 var pairs2 = [:]
 ```
+
+### Running time for dictionary operations
+
+
 
 
 
