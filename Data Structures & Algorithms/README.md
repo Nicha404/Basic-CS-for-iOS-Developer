@@ -121,6 +121,9 @@ var pairs2 = [:]
 
 ## Set
 
+
+
+
 A set is a container that holds unique values. Imagine it being a bag that allows you to insert items into it, but rejects items that have already been inserted. And a set is also an unordered data set.
 
 ```swift
@@ -131,5 +134,3 @@ var seet = Set([1,2,3])
 ***
 
 ## 연결 리스트
-
-asdfasdf
