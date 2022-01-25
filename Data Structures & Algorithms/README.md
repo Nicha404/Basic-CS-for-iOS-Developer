@@ -146,7 +146,7 @@ Sets have a very similar implementation to dictionaries, and they also require t
 
 <p align = "center"><img src = "https://user-images.githubusercontent.com/96713521/150917662-5420e93f-7099-4b68-a5a3-0059b813ea04.png" width = "800" height = "500"></p>
 
-**데이터 구조의 항목 A가 다른 항목 B의 어드레스를 보유하고 있을 때 A를 B의 포인터라고 한다.**
+**<데이터 구조의 항목 A가 다른 항목 B의 어드레스를 보유하고 있을 때 A를 B의 포인터라고 한다.>**
 
 
 
