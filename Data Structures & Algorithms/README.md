@@ -136,12 +136,12 @@ Sets have a very similar implementation to dictionaries, and they also require t
 
 ## 연결 리스트
 
-배열은 논리적인 순서와 물리적인 순서가 같아서 데이터 위치를 찾기는 쉽지만, 추가나 삭제시 나머지 데이터들을 추가로 옮겨야 해 비효율적이다. 이러한 문제르 개선한 데이터 표현 방법이 연결 리스트이다. 연결 리스트는 연속된 물리적 순서에 따라 데이터 순서를 표현하는 것이 아니라, 각 데이터에 저장된 다음 데이터의 주소에 따라 순서가 연결되는 방식이다. 그래서 배열과 달리 데이터의 논리적인 순서와 물리적인 순서가 일치하지 않아도 된다. 연결 리스트는 데이터(데이터 필드)와 다음에 이어질 데이터에 대한 주소(링크 필드)가 합쳐진 노드로 구성되어있다. 
+배열은 논리적인 순서와 물리적인 순서가 같아서 데이터 위치를 찾기는 쉽지만, 추가나 삭제시 나머지 데이터들을 추가로 옮겨야 해 비효율적이다. 이러한 문제를 개선한 데이터 표현 방법이 연결 리스트이다. 연결 리스트는 연속된 물리적 순서에 따라 데이터 순서를 표현하는 것이 아니라, 각 데이터에 저장된 다음 데이터의 주소에 따라 순서가 연결되는 방식이다. 그래서 배열과 달리 데이터의 논리적인 순서와 물리적인 순서가 일치하지 않아도 된다. 연결 리스트는 데이터(데이터 필드)와 다음에 이어질 데이터에 대한 주소(링크 필드)가 합쳐진 노드로 구성되어있다. 
 
 * 연결 리스트는 단순 연결 리스트, 원형 연결 리스트, 이중 연결 리스트로 분류된다.
 
   * 단순 연결 리스트는 아래 사진과 같이 노드의 링크 필드가 하나이며, 링크 필드는 다음 노드와 연결되는 가장 기본 구조이다.
-  * 원형 연결 리스트는 단순 연결 리스트의 마지막 노드가 리스트으ㅢ 첫 번째 노드를 가리키게 하여 리스트 구조를 원형으로 만든 구조이다.
+  * 원형 연결 리스트는 단순 연결 리스트의 마지막 노드가 리스트의 첫 번째 노드를 가리키게 하여 리스트 구조를 원형으로 만든 구조이다.
   * 이중 연결 리스트는 선행 노드로 접근하기 어려운 단순 연결 리스트와 원형 연결 리스트의 단점을 보완한 구조이다. 양쪽 모두 순회할 수 있도록 링크가 데이터 양쪽에 있어서 이중 연결 리스트이다.
 
 <p align = "center"><img src = "https://user-images.githubusercontent.com/96713521/150917662-5420e93f-7099-4b68-a5a3-0059b813ea04.png" width = "800" height = "500"></p>
@@ -150,11 +150,25 @@ Sets have a very similar implementation to dictionaries, and they also require t
 
 ### 연결 리스트에서의 데이터 추가 및 삭제
 
-단순 연결 리스트에서 새로운 항목을 추가할때는 새로운 데이터를 추가하고 나머지 노드에서 링크 필드에 연결된 화살표가 가리키는 위치만 수정해주면 된다. 삭제할때도 마찬가지로 링크 필드가 삭제하고자 하는 데이터를 가리키지 않으면 된다.
+단순 연결 리스트에서 새로운 항목을 추가할때는 새로운 데이터를 추가하고 기존 노드에서 링크 필드에 연결된 화살표가 가리키는 위치만 적절히 수정해주면 된다. 삭제할때도 마찬가지로 링크 필드가 삭제하고자 하는 데이터를 가리키지 않으면 된다.
 
 ### 배열과 연결 리스트 비교
 
 연결 리스트는 검색 기능이 약하다. 배열은 인덱스를 알면 위치와 상관없이 데이터를 금방 찾지만 연결 리스트는 첫 노드부터 순서대로 찾아가야 되기 때문이다. 하지만 연결 리스트는 정적인 메모리(방을 미리 만들어놓고 사용)를 사용하는 배열과 달리 노드 단위로 메모리를 할당받을 수 있어 공간을 보다 효율적으로 사용할 수 있다. 무엇보다, 연결 리스트는 배열보다 데이터를 추가하고 삭제하는 방법이 빠르고 쉽다.
+
+### Running time for linked list
+
+Most operations on a linked list have O(n) time, so linked lists are generally slower than arrays. However, they are also much more flexible -- rather than having to copy large chunks of memory around as with an array, many operations on a linked list just require you to change a few pointers.
+
+The reason for the O(n) time is that you can't simply write list[2] to access node 2 from the list. If you don't have a reference to that node already, you have to start at the head and work your way down to that node by following the next pointers (or start at the tail and work your way back using the previous pointers).
+
+But once you have a reference to a node, operations like insertion and deletion are really quick. It's just that finding the node is slow.
+
+This means that when you're dealing with a linked list, you should insert new items at the front whenever possible. That is an O(1) operation. Likewise for inserting at the back if you're keeping track of the tail pointer.
+
+***
+
+## 스택
 
 
 
