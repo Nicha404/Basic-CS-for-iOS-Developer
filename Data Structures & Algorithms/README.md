@@ -138,7 +138,7 @@ Sets have a very similar implementation to dictionaries, and they also require t
 
 배열은 논리적인 순서와 물리적인 순서가 같아서 데이터 위치를 찾기는 쉽지만, 추가나 삭제시 나머지 데이터들을 추가로 옮겨야 해 비효율적이다. 이러한 문제르 개선한 데이터 표현 방법이 연결 리스트이다. 연결 리스트는 연속된 물리적 순서에 따라 데이터 순서를 표현하는 것이 아니라, 각 데이터에 저장된 다음 데이터의 주소에 따라 순서가 연결되는 방식이다. 그래서 배열과 달리 데이터의 논리적인 순서와 물리적인 순서가 일치하지 않아도 된다.
 
-<img src="(https://user-images.githubusercontent.com/96713521/150917662-5420e93f-7099-4b68-a5a3-0059b813ea04.png width="200" height="400"/>
+<img src="(https://user-images.githubusercontent.com/96713521/150917662-5420e93f-7099-4b68-a5a3-0059b813ea04.png" width="200" height="400"/>
 
 
 
