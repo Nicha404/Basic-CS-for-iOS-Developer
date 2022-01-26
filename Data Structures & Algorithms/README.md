@@ -166,7 +166,7 @@ Most operations on a linked list have O(n) time, so linked lists are generally s
 
 스택은 박스를 수직으로 쌓아올린 형태로 생각하면 된다. 스택 자료 구조는 맨 위에서만 데이터의 추가, 삭제 작업이 가능하다. 구조의 중간에서는 데이터를 추가하거나 삭제하지 못한다. 같은 크기의 데이터를 정해진 방향으로만 쌓을 수 있고 톱을 통해서만 접근할 수 있다. 톱을 통해 들어온 데이터는 아래에서 위로 차곡차곡 쌓인다. 삭제할 때도 마찬가지이다. 정리하면 스택은 가장 마지막에 삽입된 데이터가 가장 먼저 삭제된다는 Last In First Out 구조로 운영된다.
 
-<p align = "center"><img src = "https://user-images.githubusercontent.com/96713521/151124589-a1517169-6c5d-44d4-bbb9-05df2660b533.jpeg)"></p>
+<p align = "center"><img src = "https://user-images.githubusercontent.com/96713521/151124589-a1517169-6c5d-44d4-bbb9-05df2660b533.png)"></p>
 
 
 
