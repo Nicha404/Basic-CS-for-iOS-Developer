@@ -188,3 +188,9 @@ Enqueue is an O(1) append operation. But dequeue is O(n) operation because remov
 
 ## Non-linear data structure
 
+앞서 배운 배열, 연결 리스트, 스택, 큐는 선형 자료구조이고 이번 섹션에서 배울 트리와 그래프는 비선형 자료 구조이다.
+
+### 트리
+
+
+
