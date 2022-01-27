@@ -184,3 +184,6 @@ Most operations on a linked list have O(n) time, so linked lists are generally s
 
 Enqueue is an O(1) append operation. But dequeue is O(n) operation because removing an item from the front of the queue can be inefficient, as removal causes all elements to shift up by one.
 
+***
+
+## Non-linear data structure
