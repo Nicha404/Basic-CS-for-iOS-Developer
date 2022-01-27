@@ -176,6 +176,8 @@ Most operations on a linked list have O(n) time, so linked lists are generally s
 
 ## 큐
 
+큐는 스택의 반대 개념이다. 매표소에 줄 서 있는 사람들의 모습을 생각해보자. 먼저 삽입된 데이터가 먼저 삭제되는 First In First Out 구조로 운영된다.
+
 
 
 
