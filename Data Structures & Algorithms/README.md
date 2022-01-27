@@ -197,7 +197,8 @@ Enqueue is an O(1) append operation. But dequeue is O(n) operation because remov
 <p align = "center"><img src = "https://user-images.githubusercontent.com/96713521/151296463-5cb9045c-1991-436f-8a62-40ddc318fa27.png" width = "800" height = "500"></p>
  
 ### 그래프
- 
+
+그래프는 연결된 데이터들의 n:n 관계를 표현한 자료구조이다. 
  
 
 
