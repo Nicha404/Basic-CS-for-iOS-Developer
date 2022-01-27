@@ -180,11 +180,7 @@ Most operations on a linked list have O(n) time, so linked lists are generally s
 
 <p align = "center"><img src = "https://user-images.githubusercontent.com/96713521/151283217-7c6db0b7-0847-40c4-b931-0a661b45875c.png" width = "800" height = "500"></p>
 
+### Running time for queue
 
-
-
-
-
-
-
+Enqueue is an O(1) append operation. But dequeue is O(n) operation because removing an item from the front of the queue can be inefficient, as removal causes all elements to shift up by one.
 
