@@ -99,7 +99,7 @@ There are also two other Swift standard libraries. The dictionary and set.
 
 ## Dictionary 
 
-A dictionary is an unordered generic collection that holds key-value pairs. A dictionary is an **unordered** collection of pairs, where each pair comprises a key and a value. As shown in the code below, keys are unique. The same key can’t appear twice in a dictionary, but different keys may point to the same value. All keys must be of the same type, and all values must be of the same type.
+A dictionary is an **unordered** collection of pairs, where each pair comprises a key and a value. As shown in the code below, keys are unique. The same key can’t appear twice in a dictionary, but different keys may point to the same value. All keys must be of the same type, and all values must be of the same type.
 
 ```swift
 var scores = ["Eric": 9, "Andy": 10]
