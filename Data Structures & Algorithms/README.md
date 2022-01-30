@@ -72,7 +72,7 @@ let array = [1, 2, 3, 4]
 ```
 
 ```swift
-let array: [String] = []
+let array: [String] = [] 
 ```
 
 ### Running time for array operations 
