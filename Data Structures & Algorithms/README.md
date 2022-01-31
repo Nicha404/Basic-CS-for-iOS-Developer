@@ -235,6 +235,12 @@ Enqueue is an O(1) append operation. But dequeue is O(n) operation because remov
 
 병합 정렬의 시간복잡도는 분할 단계에선 1/2씩 데이터의 개수가 줄어들기 때문에 O(log n)단계로 이루어지지만 정복 및 결합 단계에서는 데이터의 개수 총합 n개와 log n개의 병합 단계가 실행되어 평균적인 시간 복잡도는 O(n log n)이 된다.
 
+***
+
+## 검색 알고리즘
+
+검색이란 특정 데이터 집합에서 어떤 조건이나 성질을 만족하는 데이터를 찾는 것이다.
+
 
  
 
