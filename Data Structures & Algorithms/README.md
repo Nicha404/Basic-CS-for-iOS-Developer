@@ -201,6 +201,18 @@ Enqueue is an O(1) append operation. But dequeue is O(n) operation because remov
 그래프는 연결된 데이터들의 n:n 관계를 표현한 자료구조이다. 
 
 <p align = "center"><img src = "https://user-images.githubusercontent.com/96713521/151311203-103bca3e-457e-4410-bc5e-56ce3c40c60d.jpg" width = "800" height = "500"></p>
+
+***
+
+# 여러가지 알고리즘들
+
+## 정렬(Sort) 알고리즘
+
+정렬이란 데이터를 일정한 규칙에 따라 재배열하는 것이다. 작은 것에서 큰 것 순서대로 정리하는 것, 오늘 할 일을 순서대로 정리하는 것, 도서관에서 책을 번호대로 정리하는 것 등이 정렬 알고리즘의 예라고 할 수 있다. 대표적인 정렬 알고리즘 종류로는 선택 정렬, 버블 정렬, 삽입 정렬이 있다. **<키(key): 데이터를 정렬하는 데 기준이 되는 특정 값. 컴퓨터 아이콘을 정렬할 때 '크기'를 기준으로 정렬하면 크기가 키가 된다.>**
+
+
+
+
  
 
 
