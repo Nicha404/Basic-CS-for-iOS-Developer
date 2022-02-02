@@ -255,7 +255,7 @@ Enqueue is an O(1) append operation. But dequeue is O(n) operation because remov
 짧은 해시 키를 사용해 항목을 찾으면 원래의 값을 이용하여 찾는 것보다 더 빠르다. 배열과 마찬가지로 인덱스를 이용해 O(1)의 시간 안에 원하는 항목에 접근할 수 있다. 컴퓨터의 메인메모리를 RAM이라고 부르는 이유도 주소를 통해 모든 위치를 동일한 시간 안에 접속할 수 있기 때문이다.
 
 ***
-
+ 
 
  
 
