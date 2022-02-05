@@ -172,7 +172,7 @@ Most operations on a linked list have O(n) time, so linked lists are generally s
 
 삭제나 삽입시 맨 위에 데이터를 삽입하거나 삭제하기 때문에 시간복잡도는 늘 O(1) 의 시간복잡도를 가진다. 하지만 특정 데이터를 찾을 때는 특정 데이터를 찾을 때까지 수행을 해야하므로 O(n)의 시간 복잡도를 가지게 된다.
 
-***
+*** 
 
 ## 큐
  
