@@ -40,7 +40,7 @@
 
 문맥 전환(Context Switching) - 프로세스가 실행 상태를 벗어나면(준비 상태나 대기 상태로 넘어갈 때) 어떻게 될까? 실행 상태인 프로세스가 사용하는 레지스터 값 등은 해당 프로세스의 PCB에 저장되고 새롭게 실행 상태로 넘어온 프로세스의 레지스터 값 등은 CPU에 적재된다. 문맥 전환이 이루어질 때마다 PCB 내 레지스터 값들과 CPU 내 실제 레지스터 값들이 서로 교환된다. 이때 PCB 안에 있는 레지스터 값은 백업본이다. 이 과정을 문맥 전환이라고 한다.
 
-<p align = "center"><img src = "https://user-images.githubusercontent.com/96713521/153549044-dae147f1-0cb2-4282-95db-699ca7af005b.jpg" width = "800" height = "500"></p>
+<p align = "center"><img src = "https://user-images.githubusercontent.com/96713521/153549482-0f1e5e2b-162a-49fd-b89c-e02f5c19eb1e.png" width = "800" height = "500"></p>
 
 
  
