@@ -64,6 +64,12 @@
 
 출처: https://jungseob86.tistory.com/13 [Random Access Memories]
 
+***
+
+## 교착 상태(Deadlock)
+
+교착 상태란 프로세스가 자원을 얻지 못해 다음 처리를 하지 못하는 상태로 시스템적으로 한정된 자원을 여러 곳에서 사용하려 할 때 발생한다.
+
 
 
 
