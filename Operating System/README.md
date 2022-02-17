@@ -75,3 +75,26 @@
 ## 메모리 관리
 
 다중 프로그래밍 환경의 메인메모리 관리 기법으로는 고정 분할 메모리 관리와 가변 분할 메모리 관리가 있다. 고정 분할 메모리 관리는 메인메모리를 고정된 크기로 미리 나눠 두었다가 실행 중인 프로세스에 할당하는 기법이다. 그러나 가변 분할 메모리 관리는 고정된 분할 공간의 경계를 없애고 작업량이 맞는 공간을 할당한다. 작업이 완료되면 빈 공간은 다시 모아 관리한다. 사용자 프로그램이 실행되면 그때그때 알맞은 크기로 공간을 분할해 할당한다고 보면 된다.
+
+### Virtual Memory
+
+Virtual memory is a memory management technique where secondary memory can be used as if it were a part of the main memory. Virtual memory is a common technique used in a computer's operating system (OS).
+
+Virtual memory uses both hardware and software to enable a computer to compensate for physical memory shortages, temporarily transferring data from random access memory (RAM) to disk storage. Mapping chunks of memory to disk files enables a computer to treat secondary memory as though it were main memory.
+
+Today, most personal computers (PCs) come with at least 8 GB (gigabytes) of RAM. But, sometimes, this is not enough to run several programs at one time. This is where virtual memory comes in. Virtual memory frees up RAM by swapping data that has not been used recently over to a storage device, such as a hard drive or solid-state drive (SSD).
+
+Virtual memory is important for improving system performance, multitasking and using large programs. However, users should not overly rely on virtual memory, since it is considerably slower than RAM. If the OS has to swap data between virtual memory and RAM too often, the computer will begin to slow down -- this is called thrashing.
+
+Virtual memory was developed at a time when physical memory -- also referenced as RAM -- was expensive. Computers have a finite amount of RAM, so memory will eventually run out when multiple programs run at the same time. A system using virtual memory uses a section of the hard drive to emulate RAM. With virtual memory, a system can load larger or multiple programs running at the same time, enabling each one to operate as if it has more space, without having to purchase more RAM.
+
+***
+
+
+
+
+
+
+
+
+
