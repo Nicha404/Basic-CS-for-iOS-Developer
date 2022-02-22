@@ -186,6 +186,13 @@ Enqueue is an O(1) append operation. But dequeue is O(n) operation because remov
 
 ***
 
+## 덱
+
+덱(Deque)이란 Double-Ended Queue의 줄임말이다.
+즉, 앞쪽 front와 뒤쪽 rear에서 모두 삽입과 삭제가 가능한 큐를 의미한다.
+
+***
+
 ## Non-linear data structure
 
 앞서 배운 배열, 연결 리스트, 스택, 큐는 선형 자료구조이고 이번 섹션에서 배울 트리와 그래프는 비선형 자료 구조이다.
