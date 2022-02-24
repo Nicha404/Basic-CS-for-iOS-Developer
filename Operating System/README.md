@@ -90,6 +90,14 @@ Virtual memory was developed at a time when physical memory -- also referenced a
 
 ***
 
+# 질문 정리
+
+<details>
+<summary>프로그램과 프로세스의 차이는 무엇인가?</summary>
+프로그램은 작업을 위해 실행할 수 있는 파일의 단위를 말하고 프로세스는 프로그램이 메모리에 적재되어 실행되고있는 상태를 말한다.
+</details>
+ 
+
 
 
 
