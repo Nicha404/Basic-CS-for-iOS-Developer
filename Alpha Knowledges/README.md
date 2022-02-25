@@ -1,5 +1,21 @@
 ### MVVM
 
+Model-View-ViewModel (MVVM) is a software design pattern that is structured to separate program logic and user interface controls. MVVM is also known as model-view-binder and was created by Microsoft architects Ken Cooper and John Gossman.
+
+Like many other design patterns, MVVM helps organize code and break programs into modules to make development, updating and reuse of code simpler and faster. The pattern is often used in Windows and web graphics presentation software.
+
+The MVVM pattern is used in Windows Presentation Foundation (WPF), which runs on Microsoft’s .NET. Silverlight, a Microsoft WPF internet equivalent multimedia plug-in, also uses MVVM.
+
+The separation of the code in MVVM is divided into View, ViewModel and Model:
+
+View is the collection of visible elements, which also receives user input. This includes user interfaces (UI), animations and text. The content of View is not interacted with directly to change what is presented.
+
+ViewModel is located between the View and Model layers. This is where the controls for interacting with View are housed, while binding is used to connect the UI elements in View to the controls in ViewModel.
+
+Model houses the logic for the program, which is retrieved by the ViewModel upon its own receipt of input from the user through View.
+
+
+
 ***
  
 ### JSON parsing
