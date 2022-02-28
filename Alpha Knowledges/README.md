@@ -17,7 +17,7 @@ Model houses the logic for the program, which is retrieved by the ViewModel upon
 <p align = "center"><img src = "https://user-images.githubusercontent.com/96713521/155720849-e72e7245-4bcd-4361-8bde-91f163b67c66.png" width = "800" height = "500"></p>
 
 
-
+ 
 
 ***
  
