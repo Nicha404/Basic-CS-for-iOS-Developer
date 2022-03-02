@@ -87,6 +87,7 @@ Today, most personal computers (PCs) come with at least 8 GB (gigabytes) of RAM.
 Virtual memory is important for improving system performance, multitasking and using large programs. However, users should not overly rely on virtual memory, since it is considerably slower than RAM. If the OS has to swap data between virtual memory and RAM too often, the computer will begin to slow down -- this is called thrashing.
 
 Virtual memory was developed at a time when physical memory -- also referenced as RAM -- was expensive. Computers have a finite amount of RAM, so memory will eventually run out when multiple programs run at the same time. A system using virtual memory uses a section of the hard drive to emulate RAM. With virtual memory, a system can load larger or multiple programs running at the same time, enabling each one to operate as if it has more space, without having to purchase more RAM.
+
 쉽게 말하면 램이 부족할 때 디스크의 일부 용량을 램처럼 사용하는 것이다.
 
 ***
