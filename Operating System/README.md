@@ -106,6 +106,7 @@ Virtual memory was developed at a time when physical memory -- also referenced a
 
 <details><summary>프로세스가 도중에 중지되는 경우, 그 원인과 다시 실행할 수 있는 방법은?</summary>
 원인: 인터럽트 혹은 시스템 콜 등에 의해 프로세스가 중지될 수 있다.
+ 
 다시 실행할 수 있는 방법: PCB 안에 해당 프로세스의 정보(프로그램카운터와 같은 실행 정보 등)가 저장되어 있기 때문에 추후에 실행 가능한 상태가 되면 PCB를 통해 다시 실행할 수 있다.
 </details>
 
