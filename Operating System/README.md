@@ -92,6 +92,8 @@ Virtual memory was developed at a time when physical memory -- also referenced a
 
 ***
 
+> Seogeurim/CS Study
+
 # 질문 정리
 
 <details><summary>프로그램과 프로세스의 차이는 무엇인가?</summary>
@@ -102,6 +104,10 @@ Virtual memory was developed at a time when physical memory -- also referenced a
 스레드는 프로세스를 구성하는 실행 단위이다. 하나의 프로세스 안에서도 여러가지 일을 동시에 할 수 있다. 예를 들어 워드에서 글자를 치는 동시에 자동 저장을 하고 맞춤법 검사를 한다. 이 모든 작업들은 각각의 스레드에 의해 이루어진다. 프로세스와 달리 스레드는 코드, 데이터, 힙 영역을 통해 프로세스 자원을 공유할 수 있다. 또한 스레드는 자원을 공유하기 때문에 한 스레드에서 오류가 발생하면 같은 프로세스 내의 스레드 모두가 종료된다.
 </details>
 
+<details><summary>프로세스가 도중에 중지되는 경우, 그 원인과 다시 실행할 수 있는 방법은?</summary>
+원인: 인터럽트 혹은 시스템 콜 등에 의해 프로세스가 중지될 수 있다.
+다시 실행할 수 있는 방법: PCB 안에 해당 프로세스의 정보(프로그램카운터와 같은 실행 정보 등)가 저장되어 있기 때문에 추후에 실행 가능한 상태가 되면 PCB를 통해 다시 실행할 수 있다.
+</details>
 
 
 
