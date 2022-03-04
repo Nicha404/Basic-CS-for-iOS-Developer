@@ -140,7 +140,27 @@ Virtual memory was developed at a time when physical memory -- also referenced a
 프로세스는 CPU를 할당받은 상태의 실행 중인 프로그램이다. 현재 CPU를 할당받아 실행중인 프로세스 A와 대기중인 프로세스 B가 있다고 가정했을 때, A 프로세스에서 B 프로세스로 CPU 사용/제어권이 이전되는 것을 Context Switching 이라고한다.
 </details>
 
+***
 
+<details><summary>스케쥴링이 왜 필요한가?</summary>
+한정적인 메모리(자원)를 효율적으로 관리하기 위해, 공정성을 주기 위해 필요하다.
+</details>
+
+<details><summary>스케줄러와 CPU 스케줄러의 차이에 대하여 설명하시오.</summary>
+스케줄러(=Job Scehduler, 장기 스케줄러)는 디스크와 메모리 간 스케줄링을 담당한다.
+
+CPU 스케쥴러(= 단기 스케줄러)는 메모리와 CPU 간 스케줄링을 담당한다.
+</details>
+
+<details><summary>중기 스케쥴러에서 suspended 상태와 blocked 상태의 다른점은 무엇인가?</summary>
+blocked 상태는 다른 I/O 작업을 기다리는 상태이기 때문에 스스로 ready queue(CPU 할당을 대기 중인 프로세스)로 돌아갈수 있지만, suspended는 외부적인 이유로 유예됐기 때문에 스스로 돌아갈 수 없다.
+</details>
+
+<details><summary>FCFS(first come first serve) 스케줄링을 개선한 스케줄링 방식에 대하여 설명하시오.</summary>
+FCFS는 먼저 도착한 프로세스에게 CPU를 할당하는 기법이다. 하지만 먼저 도착한 프로세스가 실행 시간이 긴 경우 나중에 도착한 프로세스들의 대기 시간이 길어지는 Convoy Effect(Convoy Effect is phenomenon associated with the First Come First Serve (FCFS) algorithm, in which the whole Operating System slows down due to few slow processes)라는 문제점을 가지고 있다.
+이를 개선한 SJF(Shortest Job First) 기법이 있다.
+</details>
+ 
  
 
 
