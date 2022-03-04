@@ -161,6 +161,18 @@ FCFS는 먼저 도착한 프로세스에게 CPU를 할당하는 기법이다. �
 이를 개선한 SJF(Shortest Job First) 기법이 있다.
 </details>
  
- 
+<details><summary>Round Robin 스케줄링 방식에서 time quantum 설정에 따른 결과를 설명하시오.</summary>
+타임 퀀텀이란: 프로세스마다 얼만큼의 시간 배분을 해줄건지 정하는 것.
+타임퀀텀이 긴 경우: 타임퀀텀이 프로세스의 실행시간과 비슷해진다면 FCFS랑 다를 바 없어진다.
+
+타임퀀텀이 짧은 경우: 타임퀀텀이 짧아 Context Switching이 자주 일어나게 되어 오버헤드가 발생한다.
+</details>
+
+<details><summary>오버 헤드란?</summary>
+프로그램의 실행 흐름 도중에 동떨어진 위치의 코드를 실행시켜야 할 때, 추가적으로 시간, 메모리, 자원이 사용되는 현상을 오버헤드라 한다.
+</details>
+
+
+
 
 
