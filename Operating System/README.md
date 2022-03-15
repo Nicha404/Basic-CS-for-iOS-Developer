@@ -220,6 +220,8 @@ Reentrant는 재진입성이라는 의미로, Reentrant 함수는 여러 스레�
 </details>
 
 <details><summary>Mutex Lock과 Semaphore의 차이</summary>
+참고: https://www.youtube.com/watch?v=oazGbhBCOfU
+</details>
 
  
  
