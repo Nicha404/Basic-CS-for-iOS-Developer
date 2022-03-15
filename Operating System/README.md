@@ -196,6 +196,32 @@ Non Blocking은 다른 주체의 작업에 관련 없이 자신의 작업을 하
 Race Condition이란 두 개 이상의 concurrent한 프로세스 혹은 스레드가 공유 자원에 접근하려고 할 때 동기화 메커니즘 없이 접근하여 그 순서에 따라 결과가 달라지는 문제를 말합니다. 간단한 예시로는 계좌 잔고 관리를 설명해보겠습니다. 계좌의 잔고라는 공유 자원 데이터를 확인하고 출금하는 연산을 수행할 때, 동기화가 이루어지지 않으면 잔고에서 이중으로 출금되는 오류가 발생할 수 있습니다.
 </details>
 
+<details><summary>여러 프로세스가 데이터를 공유하며 수행될 때, 각 프로세스에서 공유 데이터를 접근하는 프로그램 코드는? 그리고 그에 대한 간단한 설명은?</summary>
+임계 영역입니다. 임계 영역은 공유 자원을 동시에 접근하는 작업을 실행하는 코드 영역을 칭합니다. 공유 자원을 여러 프로세스가 동시에 접근할 때 잘못된 결과를 만들 수 있기 때문에 한 프로세스가 임계 구역을 수행할 때는 다른 프로세스가 접근하지 못하도록 해야 합니다.
+</details>
 
+<details><summary>임계 영역을 프로세스들이 같이 쓸 수 있는 전제 조건을 설명하시오.</summary>
+임계 영역을 프로세스들이 같이 쓸 수 있는 전제 조건으로는 Mutual Exclusion, Progress, Bounded Waiting 3가지가 있습니다.
 
+상호 배제 (Mutual Exclusion) : 어떤 task가 임계 영역을 사용 중이면 다른 task는 사용이 불가능합니다.
+ 
+진행 (Progress) : 현재 임계 영역을 사용 중인 task가 없고, 들어가길 원하는 task가 있다면 바로 들여보냅니다.
+ 
+한정된 대기 (Bounded Waiting) : 프로세스가 진입 가능한 횟수에는 제한이 있어서 특정한 한 프로세스만 계속 진입하는 것을 방지합니다.
+</details>
 
+<details><summary>Thread-safe란?</summary>
+멀티 스레드 환경에서 여러 스레드가 동시에 공유 자원에 접근할 때 의도한대로 동작한걸 말한다. Thread-safe하기 위해서는 공유 자원에 접근하는 임계 영역을 Mutex, Semaphore 등의 동기화 기법으로 제어해야한다.
+</details>
+
+<details><summary>Reentrancy와 Thread-safe와의 차이점</summary>
+Reentrant는 재진입성이라는 의미로, Reentrant 함수는 여러 스레드가 동시에 접근해도 언제나 같은 실행 결과를 반환합니다. 이를 만족하기 위해서 함수 내에서는 공유 자원을 사용하지 않고, 호출 시 제공된 매개변수 만으로 동작하면 됩니다. 따라서 Reentrant하다면 Thread-safe하지만 그 역은 성립하지 않습니다.
+</details>
+
+<details><summary>Mutex Lock과 Semaphore의 차이</summary>
+
+ 
+ 
+ 
+ 
+ 
