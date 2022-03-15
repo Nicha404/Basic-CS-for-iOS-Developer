@@ -201,9 +201,9 @@ Race Condition이란 두 개 이상의 concurrent한 프로세스 혹은 스레�
 </details>
 
 <details><summary>임계 영역을 프로세스들이 같이 쓸 수 있는 전제 조건을 설명하시오.</summary>
+ 
 임계 영역을 프로세스들이 같이 쓸 수 있는 전제 조건으로는 Mutual Exclusion, Progress, Bounded Waiting 3가지가 있습니다.
  
-
 상호 배제 (Mutual Exclusion) : 어떤 task가 임계 영역을 사용 중이면 다른 task는 사용이 불가능합니다. 
  
 진행 (Progress) : 현재 임계 영역을 사용 중인 task가 없고, 들어가길 원하는 task가 있다면 바로 들여보냅니다.
