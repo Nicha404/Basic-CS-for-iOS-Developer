@@ -250,8 +250,9 @@ RAM을 늘린다는 것은 메인 메모리의 공간을 늘린다는 것이다.
 
 ***
 
-
-
+<details><summary>가상메모리를 사용해야하는 이유</summary>
+The main advantage of virtual memory is that an OS can load programs larger than its physical memory. It makes an impression to the users that the computer has unlimited memory. It also provides memory protection.
+</details>
 
  
  
