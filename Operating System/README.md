@@ -254,7 +254,24 @@ RAM을 늘린다는 것은 메인 메모리의 공간을 늘린다는 것이다.
 The main advantage of virtual memory is that an OS can load programs larger than its physical memory. It makes an impression to the users that the computer has unlimited memory. It also provides memory protection.
 </details>
 
+<details><summary>가상메모리를 효율적으로 관리하는 방법들은?</summary> 
+페이징 기법, 세그멘테이션 기법(가상 메모리 관리 기법 중 하나로 가상 메모리를 같은 크기의 블록으로 분할하는 페이징 기법과 달리 세그멘테이션 기법은 가상 메모리를 서로 크기가 다른 논리적 단위인 세그먼트(Segment)로 분할하고 메모리를 할당하는 기법이다.)
+</details>
+
+<details><summary>Page fault</summary> 
+A page fault is an interruption that occurs when a software program attempts to access a memory block not currently stored in the system's RAM. Page fault가 발생하면 운영체제는 보조저장장치에서 해당되는 프로세스를 불러오거나 페이지 교체를 진행한다. 페이지를 교체하는 방법에는
  
+FIFO : 먼저 메모리에 들어온 페이지 순서대로 교체한다.
  
+OPR : 앞으로 가장 오랫동안 사용되지 않을 페이지를 찾아 교체한다.
+ 
+LRU : 가장 오랫동안 사용되지 않은 페이지를 선택하여 교체한다.
+ 
+LFU : 참조 횟수가 가장 적은 페이지를 교체한다.
+ 
+MFU : 참조 회수가 가장 많은 페이지를 교체한다. 
+ 
+등이 있다.
+</details>
  
  
