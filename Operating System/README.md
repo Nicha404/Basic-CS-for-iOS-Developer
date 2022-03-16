@@ -223,6 +223,8 @@ Reentrant는 재진입성이라는 의미로, Reentrant 함수는 여러 스레�
 참고: https://www.youtube.com/watch?v=oazGbhBCOfU
 </details>
 
+***
+
 <details><summary>CPU와 가까운 순으로 메모리 구조의 순서를 말하시오</summary> 
 레지스터 → 캐시 메모리 → 메인 메모리 → 보조기억장치 → 외부기억장치의 구조를 가집니다. CPU로부터 멀어질수록 사이즈는 커지고, 가격은 저렴해지며, 접근 속도는 느려집니다.
 </details>
