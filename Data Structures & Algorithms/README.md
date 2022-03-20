@@ -263,3 +263,33 @@ Enqueue is an O(1) append operation. But dequeue is O(n) operation because remov
 
 ***
 
+# 코테 알고리즘
+
+## 완전 탐색
+
+완전탐색의 종류
+
+브루트 포스 : for문을 이용하여 처음부터 끝까지 탐색하는 방법
+
+비트 마스크 : 이진수 표현을 자료구조로 쓰는 기법 (AND, OR, XOR, SHIFT, NOT)
+
+백트래킹 : 분할정복을 이용한 기법, 재귀함수를 이용, 해를 찾아가는 도중에 해가 될 것 같지 않은 경로가 있다면 더 이상 가지 않고 되돌아간다. DFS + 가지치기
+
+재귀함수 : 함수 내에서 함수 자기 자신을 계속해서 호출하는 것
+
+순열 : 서로 다른 n개의 원소에서 r개의 중복을 허용하지 않고 순서대로 늘어 놓은 수
+
+BFS(너비 우선 탐색) - 큐 사용
+
+DFS(깊이 우선 탐색) - 스택, 재귀 사용
+
+## Dynamic Programming
+
+https://galid1.tistory.com/507
+
+## 분할정복
+
+https://www.youtube.com/watch?v=qDEKiNzAH1U
+
+
+
