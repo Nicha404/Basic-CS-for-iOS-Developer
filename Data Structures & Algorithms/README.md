@@ -263,7 +263,7 @@ Enqueue is an O(1) append operation. But dequeue is O(n) operation because remov
 
 ***
 
-## 코테 알고리즘
+## 기타 알고리즘
 
 ### 완전 탐색
 
