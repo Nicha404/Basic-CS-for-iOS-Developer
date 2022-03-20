@@ -263,9 +263,9 @@ Enqueue is an O(1) append operation. But dequeue is O(n) operation because remov
 
 ***
 
-# 코테 알고리즘
+## 코테 알고리즘
 
-## 완전 탐색
+### 완전 탐색
 
 완전탐색의 종류
 
@@ -283,11 +283,11 @@ BFS(너비 우선 탐색) - 큐 사용
 
 DFS(깊이 우선 탐색) - 스택, 재귀 사용
 
-## Dynamic Programming
+### Dynamic Programming
 
 https://galid1.tistory.com/507
 
-## 분할정복
+### 분할정복
 
 https://www.youtube.com/watch?v=qDEKiNzAH1U
 
