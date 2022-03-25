@@ -209,6 +209,8 @@ Enqueue is an O(1) append operation. But dequeue is O(n) operation because remov
 
 <p align = "center"><img src = "https://user-images.githubusercontent.com/96713521/151311203-103bca3e-457e-4410-bc5e-56ce3c40c60d.jpg" width = "800" height = "500"></p>
 
+https://www.youtube.com/watch?v=fVcKN42YXXI
+
 ***
 
 # 여러가지 알고리즘들
