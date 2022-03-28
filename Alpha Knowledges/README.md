@@ -16,9 +16,6 @@ Model houses the logic for the program, which is retrieved by the ViewModel upon
 
 <p align = "center"><img src = "https://user-images.githubusercontent.com/96713521/155720849-e72e7245-4bcd-4361-8bde-91f163b67c66.png" width = "800" height = "500"></p>
 
-
- 
-
 ***
  
 ### JSON parsing
@@ -27,7 +24,7 @@ Model houses the logic for the program, which is retrieved by the ViewModel upon
 
 ### 프레임워크 VS 라이브러리
 
-프레임워크는 뼈대라고 생각하면 된다. 코딩할때 필수적인 코드와 알고리즘 등과 같이 어느 정도의 구조를 재공해주기 때문에 프로그래머는 이 뼈대 위에서 코드를 작성하여 프로그램을 개발하면 된다.
+프레임워크는 뼈대라고 생각하면 된다. 코딩할때 필수적인 코드와 알고리즘 등과 같이 어느 정도의 구조를 ㅈㅔ공해주기 때문에 프로그래머는 이 뼈대 위에서 코드를 작성하여 프로그램을 개발하면 된다.
 
 라이브러리는 특정 기능에 대한 도구나 함수들의 집합이다. 프로그램 기능 수행을 따로 정립해놓은 것을 말한다.
 
