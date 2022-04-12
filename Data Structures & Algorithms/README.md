@@ -289,6 +289,7 @@ DFS(깊이 우선 탐색) - 스택, 재귀 사용
 
 https://galid1.tistory.com/507
 
+점화식, 중복, 규칙
 ### 분할정복
 
 https://www.youtube.com/watch?v=qDEKiNzAH1U
