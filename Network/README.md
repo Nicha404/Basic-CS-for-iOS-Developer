@@ -29,7 +29,7 @@ PC방에서 오버워치를 하는데 연결이 끊겼다.
 
 ***
 
-> Seogeurim/CS Study
+> Seogeurim / CS Study
 
 # 질문 정리
 
