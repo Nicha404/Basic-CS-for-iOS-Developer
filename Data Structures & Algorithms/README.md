@@ -289,6 +289,8 @@ DFS(깊이 우선 탐색) - 스택, 재귀 사용
 
 https://galid1.tistory.com/507
 
+https://semaph.tistory.com/16
+
 중복, 규칙, 누적을 통해서 점화식을 구해야 한다.
 ### 분할정복
 
