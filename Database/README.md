@@ -25,7 +25,7 @@
 ***
 
 ## 정규화
-
+ 
 ***
 
 <details><summary>데이터베이스는 왜 사용할까?</summary> 
