@@ -47,7 +47,7 @@ Linear time complexity is usually the easiest to understand. As the amount of da
 
 #### Quadratic time
 
-This time complexity refers to an algorithm that takes time proportional to the square of the input size. As the size of the input data increases, the amount of time it takes for the algorithm to run increases drastically. The Big O notation for quadratic time is O(n^2). (주로 for문 안의 for문)
+This time complexity refers to an algorithm that takes time proportional to the square of the input size. As the size of the input data increases, the amount of time it takes for the algorithm to run increases drastically. The Big O notation for quadratic time is O(n^2). (주로 for문 안의 for문, 선택 정렬, 버블 정렬)
 
 #### Logarithmic time
 
